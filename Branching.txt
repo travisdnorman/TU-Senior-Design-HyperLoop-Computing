@@ -1,0 +1,23 @@
+https://www.atlassian.com/git/tutorials/using-branches
+
+In Git, branches are a part of your everyday development process. When you want to add a new feature or fix a bug—no matter how big or how small—you spawn a new branch to encapsulate your changes. This makes sure that unstable code is never committed to the main code base, and it gives you the chance to clean up your feature’s history before merging it into the main branch.
+
+Creating branches:
+git branch branch_name
+
+To view a list of branches:
+git branch
+
+To switch to a branch:
+git checkout branch_name
+Updates your working directory to match branch_name
+
+Deleting Branches:
+git branch -d branch_name
+NOTE: the branch must have already been merged into the main branch to be deleted. This delete function will not cause any version history to be lost
+
+REALLY deleting Branches
+git branch -D branch_name
+NOTE: this deletes the branch regardless of its status and without warnings. I don't recommend using this. Unless the branch is a complete failure
+
+
