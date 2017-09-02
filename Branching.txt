@@ -23,4 +23,6 @@ REALLY deleting Branches
 git branch -D <branch name>
 NOTE: this deletes the branch regardless of its status and without warnings. I don't recommend using this. Unless the branch is a complete failure
 
-
+To merge a branch into the master branch:
+git merge --no-ff <branch>
+Don't forget to git push for this to reflect in the online repository
