@@ -12,6 +12,9 @@ To switch to a branch:
 git checkout <branch name>
 Updates your working directory to match <branch name>
 
+To push a branch to the online repository:
+git push -u origin <branch name>
+
 Deleting Branches:
 git branch -d <branch name>
 NOTE: the branch must have already been merged into the main branch to be deleted. This delete function will not cause any version history to be lost
