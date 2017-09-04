@@ -3,6 +3,10 @@
 3.	Type �git clone https://github.com/travisdnorman/TU-Senior-Design-HyperLoop-Computing.git�
 4.	Set username �git config --global user.name "tdnorman"�
 5.	Set email "git config --global user.email "travis.norman96@gmail.com""
-6.	To add "git add "file_name"" or "git add ." to add all files
-7.	Must commit using "git commit -m "comment""
-8.	Push "git push"
+
+To work on file
+1.  Update local directory "git pull"
+2.  Do work on file
+3.	To add "git add "file_name"" or "git add ." to add all files
+4.	Must commit using "git commit -m "comment""
+5.	Push "git push"
