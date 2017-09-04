@@ -7,6 +7,6 @@
 To work on file
 1.  Update local directory "git pull"
 2.  Do work on file
-3.	To add "git add "file_name"" or "git add ." to add all files
+3.	To stage/add "git add "file_name"" or "git add ." to add all files
 4.	Must commit using "git commit -m "comment""
 5.	Push "git push"
