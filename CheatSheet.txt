@@ -1,7 +1,7 @@
 1.	Create local project folder
 2.	Navigate to project folder using command prompt
-3.	Type �git clone https://github.com/travisdnorman/TU-Senior-Design-HyperLoop-Computing.git�
-4.	Set username �git config --global user.name "tdnorman"�
+3.	Type "git clone https://github.com/travisdnorman/TU-Senior-Design-HyperLoop-Computing.git"
+4.	Set username "git config --global user.name "tdnorman""
 5.	Set email "git config --global user.email "travis.norman96@gmail.com""
 
 To work on file
